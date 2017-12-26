@@ -24,6 +24,7 @@ body{
 
 /*HEADER*/
 header{
+	width: 100%;
 	background: #35424a;
 	color: #ffffff;
 	padding-top: 30px;
@@ -55,8 +56,7 @@ a{
 
 /* boxes titles */
 #boxes .box-container .pan-title1{
-	width: 40%;
-	margin-left: 33%;
+	width: 100%;
 	text-align: center;
 	float: left;
 	font-size: 26px;
@@ -198,25 +198,57 @@ table td{
 	text-align: center;
 }
 
+@media screen and (max-width: 1200px){
+	.container #branding,
+	.container,
+	#welcome .container-head,
+	#boxes,
+	#information,
+	#bottom,
+	#bottom .panel-default,
+	#bottom .panel-default .fecha,
+	#foot{
+	width: 100%;
+	text-align: center;
+	font-size: 120%;
+	}
+}
+
 @media screen and (max-width: 800px){
-	header #branding,
-	#welcome,
-	#bottom .panel-default .title{
-		margin-top: 15px;
-		float: none;
-		text-align: center;
-		width: 100%
+	.container #branding,
+	.container,
+	#welcome .container-head,
+	#boxes,
+	#information,
+	#bottom,
+	#bottom .panel-default,
+	#bottom .panel-default .fecha,
+	#foot{
+	width: 100%;
+	text-align: center;
+	font-size: 120%;
 	}
 
-	.box-container{
-		padding-top: 30px;
-		float: none;
-		width: 70%;
+	#boxes .box-container{
+	width: 100%;
+	float: left;
+	text-align: center;
 	}
 
-	#boxes .box-container .box{
-		width: 300px;
+	#bottom .panel-default .fecha{
+	padding-left: 10%;
 	}
+
+	#bottom .panel-default .fecha img{
+	position: relative;
+	bottom: -5px;
+	float: none;
+	}
+
+	#foot .img-footer{
+	padding-left: 75%;
+}
+
 
 	/* TABLA */
 	table,
