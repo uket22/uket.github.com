@@ -25,11 +25,11 @@ body{
 /*HEADER*/
 header{
 	width: 100%;
-	background: #35424a;
+	background: #434DB0;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
-	border-bottom: #e8491d 7px solid;
+	border-bottom: #AEB7F5 7px solid;
 }
 
 header #branding{
@@ -48,7 +48,7 @@ header #branding h1{
 }
 
 a{
-	color: #E8491D;
+	color: #565FB8;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -91,11 +91,11 @@ a{
     border: #ddd solid 1px;
     border-radius: 30px;
 
-    border-bottom: #e8491d 1.5px solid;
+    border-bottom: #565FB8 1.5px solid;
 }
 
 #boxes .box-container .box img{
-    border: 1px solid #ddd;
+    border: 1px solid #C9CFF8;
     border-radius: 50%;
     padding: 10px;
     width: 40px;
@@ -119,7 +119,7 @@ a{
 	padding: 10px 5px;
 	text-align: center;
 	width: 100%;
-	color: #E8491D;
+	color: #c4444d;
 }
 #information{
 	width: 1200px;
@@ -179,7 +179,7 @@ table{
 }
 
 tr:nth-of-type(odd){
-	background: #BBC0C2;
+	background: #C9CFF8;
 }
 
 tr:nth-of-type(even){
@@ -187,7 +187,7 @@ tr:nth-of-type(even){
 }
 
 #HeadRow{
-	background:#35424A;
+	background:#434DB0;
 	color: white;
 	font-weight: bold;
 	text-align: center;
@@ -267,6 +267,7 @@ table td{
 	#foot .img-footer{
 	padding-left: 75%;
 	}
+
 
 	/* TABLA */
 	table,
