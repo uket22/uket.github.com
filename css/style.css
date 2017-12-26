@@ -1,0 +1,307 @@
+body{
+	font: 15px/1.5 Poppins, Helvetica, sans-seriff;
+	padding: 0;
+	margin:0;
+	color:#242424;
+	background-color: #f4f4f4f4;
+}
+
+/*GENERAL*/
+.container{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#welcome .container-head{
+	width: 1200px;
+	padding-top: 30px;
+	margin: auto;
+	overflow: hidden;
+	font-size: 20px;
+	min-height: 70px;
+}
+
+/*HEADER*/
+header{
+	width: 100%;
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 7px solid;
+}
+
+header #branding{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+a{
+	color: #E8491D;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/* boxes titles */
+#boxes .box-container .pan-title1{
+	width: 100%;
+	text-align: center;
+	float: left;
+	font-size: 26px;
+}
+
+.box-container{
+	width: 49%;
+	margin: auto;
+	float: left;
+	overflow: hidden;
+}
+
+/* boxes */
+#boxes{
+	width: 1200px;
+	margin:auto;
+	margin-top: 50px;
+}
+
+.text-1{
+	color: #242424;
+}
+
+#boxes .box-container .box{
+	margin-top: 20px;
+	margin-left: 70px;
+	float: left;
+	text-align: center;
+	width: 200px;
+	background: #f4f4f4f4;
+
+    border: #ddd solid 1px;
+    border-radius: 30px;
+
+    border-bottom: #e8491d 1.5px solid;
+}
+
+#boxes .box-container .box img{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+	bottom: 15px;
+    background: #f4f4f4f4;
+}
+
+#boxes .box-container .box h2{
+	position: relative;
+	bottom: 20px;
+}
+
+/* INFORMATION */
+
+#information h3{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+	color: #E8491D;
+}
+#information{
+	width: 1200px;
+	margin:auto;
+}
+
+/* data-grid */
+#bottom{
+	margin:auto;
+	width: 1200px;
+	padding-top: 300px;
+}
+
+.panel-default{
+	width: 1200px;
+	overflow: hidden;
+}
+
+#bottom .panel-default .fecha{
+	width: 100%;
+	padding-left: 80%;
+}
+
+#bottom .panel-default .fecha img{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	bottom: 5px;
+	float: left;
+}
+
+#foot{
+	width:1200px;
+	margin: auto;
+}
+
+#foot .img-footer{
+	padding-left: 94%;
+}
+
+#foot img{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top:4px;
+}
+
+
+table{
+	margin-top: 1px; 
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr:nth-of-type(odd){
+	background: #BBC0C2;
+}
+
+tr:nth-of-type(even){
+	background: #f4f4f4f4;
+}
+
+#HeadRow{
+	background:#35424A;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+table td{
+	padding: 5px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+	.container #branding,
+	.container,
+	#welcome .container-head,
+	#boxes,
+	#information,
+	#bottom,
+	#bottom .panel-default,
+	#bottom .panel-default .fecha,
+	#foot{
+	width: 100%;
+	text-align: center;
+	font-size: 120%;
+	}
+
+	#bottom .panel-default .fecha{
+	padding-left: 35%;
+	}
+
+	#bottom .panel-default .fecha img{
+	position: relative;
+	bottom: -5px;
+	float: none;
+	}
+
+	#foot .img-footer{
+	padding-left: 90%;
+}
+
+
+@media screen and (max-width: 800px){
+	.container #branding,
+	.container,
+	#welcome .container-head,
+	#boxes,
+	#information,
+	#bottom,
+	#bottom .panel-default,
+	#bottom .panel-default .fecha,
+	#foot{
+	width: 100%;
+	text-align: center;
+	font-size: 120%;
+	}
+
+	#boxes .box-container{
+	width: 100%;
+	float: left;
+	text-align: center;
+	}
+
+	#boxes .box-container .box{
+	margin-left: 22%;	
+	}
+
+	#bottom .panel-default .fecha{
+	padding-left: 10%;
+	}
+
+	#bottom .panel-default .fecha img{
+	position: relative;
+	bottom: -5px;
+	float: none;
+	}
+
+	#foot .img-footer{
+	padding-left: 75%;
+}
+
+
+	/* TABLA */
+	table,
+	table tbody,
+	table tr,
+	table td{
+		display: block;	
+	}
+
+	#HeadRow{
+		position: absolute;
+		left: -9999px;
+		top: -9999px;
+	}
+
+	table td{
+		border: none;
+		position: relative;
+		padding-left: 40%;
+		white-space: normal;
+		text-align: center;
+	}
+
+	table td:before{
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 40%;
+		padding-right: 10%;
+		white-space: nowrap;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	table td:before{
+		content: attr(TableHeadData);
+	}
+}
